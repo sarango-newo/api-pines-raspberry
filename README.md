@@ -10,8 +10,8 @@
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/tu_usuario/tu_proyecto.git
-    cd tu_proyecto
+    git clone https://github.com/sarango-newo/api-pines-raspberry.git
+    cd api-pines-raspberry
     ```
 
 2. Crea un entorno virtual (opcional, pero se recomienda):
@@ -36,7 +36,7 @@
 2. Ejecuta la aplicación:
 
     ```bash
-    uvicorn main:app --host 0.0.0.0 --port 4000 --reload
+    uvicorn main:app 
     ```
 
 3. Accede a la API desde tu navegador o herramienta de cliente API preferida.
